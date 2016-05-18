@@ -1,10 +1,10 @@
 language: cpp
 compiler:
- - clang
+  - clang
 branches:
   only:
   - branchcov
 script:
   - make clean
   - make
-- ./FieldTest
+  - ./FieldTest
