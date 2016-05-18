@@ -3,7 +3,7 @@ compiler:
  - clang
 branches:
   only:
-  - FieldMine
+  - branchcov
 script:
   - make clean
   - make
